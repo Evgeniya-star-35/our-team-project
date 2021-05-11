@@ -45,10 +45,22 @@
   display: inline-block;
 }
 
+.two {
+  color: red;
+  font-size: 20px;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  text-transform: uppercase;
+}
 
-.two{
-	color: red;
-	font-size: 20px;
-	font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-	text-transform: uppercase;
+.rita {
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  font-size: 40px;
+  font-weight: 700;
+  color: teal;
+  background-color: thistle;
+  line-height: 1.2em;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
 }
