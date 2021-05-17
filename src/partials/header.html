@@ -1,0 +1,84 @@
+<header class="header">
+  <div class="container open-menu">
+    <nav class="header__nav">
+      <a class="header__logo" href="./index.html">
+        <svg class="header__icon">
+          <use href="./images/sprite.svg#icon-logo"></use>
+        </svg>
+      </a>
+      <div class="header-menu">
+        <ul class="header-list">
+          <li class="header-list__item">
+            <a class="header-list__link" rel="noopener noreferrer" href="#about-us">About us </a>
+          </li>
+          <li class="header-list__item">
+            <a class="header-list__link" rel="noopener noreferrer" href="#program">Program </a>
+          </li>
+          <li class="header-list__item">
+            <a class="header-list__link" rel="noopener noreferrer" href="#reviews">Reviews </a>
+          </li>
+          <li class="header-list__item">
+            <a class="header-list__link" rel="noopener noreferrer" href="#contacts">Contacts </a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+    <menu class="menu">
+      <h1 class="menu__title animate__slideInDown">Donut Masterclass with the Donut King</h1>
+      <p class="menu__subtitle">Hosted by Eva Green</p>
+      <a class="btn--register" href="#register">Register</a>
+      <ul class="social--list">
+        <li class="social-icons__link social-icons__link--icon">
+          <svg width="24" height="19">
+            <use href="./images/sprite.svg#icon-twitter"></use>
+          </svg>
+        </li>
+        <li class="social-icons__link social-icons__link--icon">
+          <svg width="19" height="19">
+            <use href="./images/sprite.svg#icon-instagram"></use>
+          </svg>
+        </li>
+        <li class="social-icons__link social-icons__link--icon">
+          <svg width="11" height="19">
+            <use href="./images/sprite.svg#icon-facebook"></use>
+          </svg>
+        </li>
+      </ul>
+    </menu>
+    <button class="open" type="button" data-modal-open>
+      <svg width="30px" height="16px">
+        <use href="./images/sprite.svg#icon-menu"></use>
+      </svg>
+    </button>
+  </div>
+  <div class="backdrop is-hidden" data-modal>
+    <div class="menu-contact">
+      <svg width="190px" height="85px" class="logo-menu" aria-label="logo-menu">
+        <use class="logo" href="./images/sprite.svg#icon-logo"></use>
+      </svg>
+
+      <div class="menu-conteiner" id="menu-conteiner" data-menu>
+        <ul class="menu">
+          <li class="menu-donat">
+            <a href="#about-us" class="page-menu">About us</a>
+          </li>
+          <li class="menu-donat">
+            <a href="#program" class="page-menu">Program</a>
+          </li>
+          <li class="menu-donat">
+            <a href="#reviews" class="page-menu">Reviews</a>
+          </li>
+          <li class="menu-donat">
+            <a href="#contact" class="page-menu">Contacts</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+
+    <button data-modal-close type="button" class="menu-button">
+      <svg width="18px" height="18px" class="close" aria-label="close">
+        <use class="icon-menu" href="./images/sprite.svg#icon-close"></use>
+      </svg>
+    </button>
+  </div>
+</header>
